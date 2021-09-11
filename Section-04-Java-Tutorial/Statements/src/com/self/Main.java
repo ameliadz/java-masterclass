@@ -25,6 +25,6 @@ public class Main {
         if (calculatedScore > 59) {
             System.out.println("your score is more than 59");
         }
-        
+
     }
 }
