@@ -2,6 +2,7 @@ package com.self;
 
 public class Main {
 
+    // psvm is a shortcut for this line
     public static void main(String[] args) {
         System.out.println("This is a " +
                 "nice chunk of" +
