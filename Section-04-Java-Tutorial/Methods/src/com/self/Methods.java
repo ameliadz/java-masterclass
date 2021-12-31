@@ -3,18 +3,9 @@ package com.self;
 public class Methods {
 
     public static void main(String[] args) {
-        boolean isGameOver = true;
-        int score = 800;
-        int levelCompleted = 5;
-        int bonus = 100;
+        calculateScore(true, 800, 5, 100);
 
-        calculateScore(isGameOver, score, levelCompleted, bonus);
-
-        score = 10000;
-        levelCompleted = 8;
-        bonus = 200;
-
-        calculateScore(isGameOver, score, levelCompleted, bonus);
+        calculateScore(true, 10000, 8, 200);
     }
 
     public static void calculateScore(boolean isGameOver, int score, int levelCompleted, int bonus) {
